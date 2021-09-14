@@ -33,6 +33,7 @@ header h2 {
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+  height: 90vh;
 }
 
 .cats-div img {
