@@ -1,0 +1,24 @@
+* {
+  font-family: Arial, Helvetica;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cats-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.cats-div img {
+  border-radius: 1em;
+}
+
+span {
+  color: orange;
+}
