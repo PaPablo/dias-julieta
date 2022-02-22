@@ -32,7 +32,7 @@ header h2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  /* grid-auto-rows: minmax(200px, auto); */
   height: 90vh;
 }
 

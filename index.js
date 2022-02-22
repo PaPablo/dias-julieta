@@ -1,6 +1,6 @@
 const setContador = () => {
   const hoy = new Date();
-  const llegada = new Date(2021, 8, 25, 17);
+  const llegada = new Date(2022, 2, 2, 19);
 
   const diff = Math.floor((llegada - hoy) / 1000);
 
